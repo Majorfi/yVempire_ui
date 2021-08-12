@@ -62,24 +62,6 @@ const	COMPOUND = [
 	},
 	{
 		service: 0,
-		decimals: 18,
-		underlyingName: 'WETH',
-		cgID: 'ethereum',
-		underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-		image: '/tokens/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.svg',
-		aToken: {
-			name: 'cWETH',
-			address: '0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5',
-			apy: 0,
-		},
-		yvToken: {
-			name: 'yvWETH',
-			address: '0xa258C4606Ca8206D8aA700cE2143D7db854D168c',
-			apy: 0,
-		}
-	},
-	{
-		service: 0,
 		decimals: 8,
 		underlyingName: 'WBTC',
 		cgID: 'wrapped-bitcoin',
