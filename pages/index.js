@@ -396,7 +396,7 @@ function	Index({hasSecret}) {
 	const	{provider, address} = useWeb3();
 	const	{balancesOf, allowances, set_balancesOf, set_allowances} = useAccount();
 	const	[pairs, set_pairs] = useState(PAIRS);
-	const	[nonce, set_nonce] = useState(0);
+	const	[, set_nonce] = useState(0);
 	const	[selectedTokens, set_selectedTokens] = useState([]);
 
 	const	[txApproveStatus, set_txApproveStatus] = useState({none: true, pending: false, success: false, error: false, step: ''});
